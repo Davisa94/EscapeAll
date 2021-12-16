@@ -15,7 +15,6 @@ string get_string()
 
 string escape_chars_std(string input, string escape_me, char escape_char)
 {
-   cout << escape_me.length();
    for (int i = 0; i < escape_me.length(); i++)
    {
       string curr_char{escape_me[i]};
